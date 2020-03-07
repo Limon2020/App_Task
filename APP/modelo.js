@@ -135,7 +135,7 @@ class ToDo extends App {
         };
         let data = this.data
         data.forEach((element, pos) => {
-            if (elemen.id == id) {
+            if (element.id == id) {
                 data.splice(pos, 1);
                 response = {
                     "message": "Tarea Eliminada, ID $(id)",
