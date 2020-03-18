@@ -5,7 +5,7 @@ const FormNewTask = () => {
     let container = document.getElementById("my-app");
     let row = `
      <div class ="row">
-         <div class = " col-6 shadow tg-white roundednt-2">
+         <div class = " col-6 offset-3 shadow tg-white roundednt-2">
              <div class = "form nt-2">
                  <div class = "form-group">
                      <label for = "task"> Tarea: </label>

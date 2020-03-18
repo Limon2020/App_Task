@@ -1,6 +1,37 @@
-
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body {
     background-color: #edf5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.cabecera {
+    font-size: 32px !important;
+    color: #fff !important;
 }
 
+.my-bar{
+    background-color: #0388fc !important;
+}
+
+.nav-link{
+    color: #fff !important;
+}
+.nav-link:hover {
+    color: lightgray !important;
+}
+
+.form-control, .btn{
+    border-radius: 0 !important;
+}
+
+.btn-primary {
+    background-color: #000 !important;
+    color: #fff !important;
+    border-color: #000 !important;
+}
+
+.btn-primary:hover{
+    background-color: transparent !important;
+    color:  #000 !important;
+}
